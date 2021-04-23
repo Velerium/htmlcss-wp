@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+.fl {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div {
+    border-radius: 15px;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    background-color: #fff;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+header {
+    height: 130px;
+    padding: 10px 0;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #bbb;
+}
+
+header img {
+    padding-right: 20px;
+    border-right: 1px solid #e7e7e7; 
+}
+
+nav {
+    list-style: none;
+    line-height: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+li:last-child {              /*This is to avoid a collision between the last*/
+    margin-right: 0 ;        /*li and the end of the "nav" menu*/
+}
+
+.news {
+    height: 500px;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.layer {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.news-title {
+    width: 55%;
+    height: 120px;
+    color: #fff;
+    padding: 300px 0 0 50px;      /*There has to be another way...*/
+}                                 /*Besides "position", that is.*/
+
+.info {
+    height: 80px;
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+.info h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+
+.info span {
+    margin-top: 10px;
+    color: #999;
+
+}
+
+.info-2 {
+    margin-bottom: 10px;
+    padding: 20px 0;
+    color: #999;
+}
+
+.info-2 h3 {
+    color: #000;
+}
+
+.width {
+    width: 240px;
+    padding-right: 10px;
+}
+
+.width-2 {
+    width: 720px;             /*Divided padding among the divs to allow for*/
+    padding: 0 10px;            /*easier movement while responsive!*/
+}
+
+.width-3 {
+    width: 240px;
+    padding-left: 10px;
+}
+
+.height {  
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.first-image {
+    background-image: url(../img/img.jpg);
+    background-size: 130%;
+}
+
+
+.second-image {
+    background-image: url(../img/banner-1.jpg);
+    background-size: 110%;
+}
+
+.third-image { 
+    height: 250px;
+    background: url(../img/img-1.jpg) no-repeat center;
+    background-size: 140%;
+}
+
+footer {
+    height: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer span::after {
+    content: '\2764';
+    color: red;
+    font-size: 30px;
+}
