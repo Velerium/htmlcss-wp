@@ -144,6 +144,7 @@ li:last-child {              /*This is to avoid a collision between the last*/
     height: 250px;
     background: url(../img/img-1.jpg) no-repeat center;
     background-size: 140%;
+    margin-bottom: 20px;
 }
 
 footer {
